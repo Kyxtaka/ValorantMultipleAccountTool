@@ -22,7 +22,8 @@ public class App extends Application {
     @Override
     public void start(Stage stage) {
         BorderPane root = new BorderPane();
-        stage = new Scene(root,900,700);
+        Scene scene = new Scene(root,900,700);
+        stage.setScene(scene);
         stage.setTitle("Test");
         stage.show();
     }
